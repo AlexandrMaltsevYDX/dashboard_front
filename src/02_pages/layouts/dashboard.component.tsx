@@ -7,9 +7,6 @@ import Icon, {
 import {Button, Layout, Menu, theme} from "antd";
 import {Link, Outlet} from "react-router-dom";
 import {BsHouses} from "react-icons/bs";
-import {TbUsers} from "react-icons/tb";
-import {LuUsers} from "react-icons/lu";
-import {HiOutlineUsers} from "react-icons/hi2";
 import {BsPeople} from "react-icons/bs";
 
 const {Header, Sider, Content} = Layout;
