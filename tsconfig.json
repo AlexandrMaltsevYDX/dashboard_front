@@ -25,6 +25,7 @@
     "paths": {
       "~shared/*": ["src/06_shared/*"],
       "~pages/*": ["src/02_pages/*"],
+      "~widgets/*": ["src/03_widgets/*"],
       // "~/*": ["src/*"], // ! <=
     }
   },
