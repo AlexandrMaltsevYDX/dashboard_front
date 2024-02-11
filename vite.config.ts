@@ -4,6 +4,9 @@ import path from "path"; // ! yarn add @types/node
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  define: {
+    __APP_ENV__: process.env.VITE_VERCEL_ENV,
+  },
   resolve: {
     alias: {
       "~shared": path.resolve(__dirname, "./src/06_shared"),
