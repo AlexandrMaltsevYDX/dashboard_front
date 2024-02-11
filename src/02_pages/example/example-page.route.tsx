@@ -3,6 +3,6 @@ import {createElement} from "react";
 import {ExamplePageComponent} from "./example-page.component.tsx";
 
 export const examplePageRoute: RouteObject = {
-  path: "/example",
+  path: "/",
   element: createElement(ExamplePageComponent),
 };
